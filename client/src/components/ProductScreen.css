@@ -1,0 +1,18 @@
+.card-img-top{
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 95%;
+    background-color: rgb(255, 255, 255);
+}
+.card-img{
+    padding-top: 20px;
+    padding-right: 35px;
+    max-width: 100%;
+    margin-left: 20px;
+}
+.card{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20Px;
+}

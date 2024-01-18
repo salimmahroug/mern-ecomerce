@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.site-container {
+  background-color: white;
+  min-height: 100vh;
+}
+main{
+  flex: 1;
+}
+.btn-primary,
+.btn-outline-primary {
+  background-color: #fff700;
+  color: #000000;
+}
+.btn-primary:hover,
+.btn-outline-primary:hover {
+  background-color: rgb(185, 207, 88);
+  color: #000000; /* Vous pouvez ajuster la couleur du texte pendant le survol si nécessaire */
+}
+.products{
+  display: flex;
+  justify-content: center;
+} 
+.rating span {
+  color: #ffbf00;
+}
+.product{
+  border: 1px solid #404040;
+  margin: 1rem;
+}
+.product img{
+  height: 300px;
+  whidth:200Px ;
+  max-width: 400px;
+}
+product-info{
+  padding: 1rem;
+}
+.img-large {
+  padding-top: 2px;
+  height: 300px;
+}
+.img-thumbnail {
+  height: 80px;
+}
+.small-container {
+  max-width: 600px;
+}
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #f08000;
+  color: #f08000;
+}
+
+/* sidebar */
+.navbar-brand {
+  font-weight: bold;
+}
+.side-navbar {
+  width: 240px;
+  height: 100%;
+  position: fixed;
+  left: -300px;
+  background-color: #000000;
+  transition: 0.5s;
+}
+
+.site-container {
+  transition: 0.4s;
+}
+.active-cont {
+  margin-left: 240px;
+}
+.active-nav {
+  left: 0;
+}
+
+/* Map */
+
+.full-box {
+  height: 100vh;
+  max-width: initial;
+}
+.full-box header,
+.full-box footer {
+  display: none;
+}
+.full-box .container {
+  height: 100vh;
+  max-width: initial;
+  margin: 0;
+  padding: 0;
+}
+
+.full-box .mt-3 {
+  margin-top: 0 !important;
+}
+
+.map-input-box {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0.5rem auto;
+  width: 25rem;
+  height: 3rem;
+  display: flex;
+}
+.map-input-box input {
+  border-radius: 1rem 0 0 1rem;
+  border-right: 0;
+}
+.map-input-box button {
+  border-radius: 0 1rem 1rem 0;
+  border-left: 0;
+}
+button.thumbnail {
+  padding: 0;
+}
